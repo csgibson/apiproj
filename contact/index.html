@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>API Party!!</title>
+  <link rel="stylesheet" href="/styles/base.css">
+  <link rel="stylesheet" href="/styles/simple.css">
+  <link rel="stylesheet" href="/styles/override.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="/app">App</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h1>Wow!</h1>
+      <h2>Super official looking form!</h2>
+      <form>
+        <p><strong>This is just a test form. It doesn't do anything.</strong></p>
+        <p>
+          <small>basically just copied it from https://simplecss.org/demo anyway...</small>
+        </p>
+
+        <p><select>
+            <option selected="selected" value="1">Title</option>
+            <option value="2">Mr</option>
+            <option value="3">Miss</option>
+            <option value="4">Mrs</option>
+            <option value="5">Other</option>
+          </select></p>
+
+        <p>
+          <label>First name</label><br>
+          <input type="text" name="first_name">
+        </p>
+
+        <p>
+          <label>Surname</label><br>
+          <input type="text" name="surname">
+        </p>
+
+        <p>
+          <label>Email</label><br>
+          <input type="email" name="email" required="">
+        </p>
+
+        <p>
+          <label>Enquiry type:</label><br>
+          <label><input checked="checked" name="type" type="radio" value="sales" /> Sales</label> <br />
+          <label><input name="type" type="radio" value="support" /> Support</label> <br />
+          <label><input name="type" type="radio" value="billing" /> Billing</label>
+        </p>
+
+        <p>
+          <label>Message</label><br>
+          <textarea rows="6"></textarea>
+        </p>
+
+        <p>
+          <label>
+            <input type="checkbox" id="checkbox" value="terms">
+            I agree to the <a href="#">terms and conditions</a>
+          </label>
+        </p>
+
+        <button>Send</button>
+        <button type="reset">Reset</button>
+        <button disabled="disabled">Disabled</button>
+      </form>
+    </article>
+  </main>
+  <footer>Connor's copyright => made one hour in mid june 2022</footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
